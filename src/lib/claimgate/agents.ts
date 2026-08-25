@@ -2,7 +2,7 @@ import type { AgentId } from "./types";
 
 export const AGENT_META: Record<
   AgentId,
-  { label: string; short?: string; duty: string; index: number }
+  { label: string; duty: string; index: number }
 > = {
   extractor: {
     index: 1,

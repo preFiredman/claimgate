@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Newsreader", "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+
+  --color-bg: #0b0c0b;
+  --color-surface: #141513;
+  --color-raised: #1c1d1a;
+  --color-fg: #ecece4;
+  --color-muted: #8d8f88;
+  --color-subtle: #6b6d67;
+  --color-border: rgb(236 236 228 / 0.12);
+  --color-border-strong: rgb(236 236 228 / 0.22);
+  --color-accent: #c5ccc4;
+  --color-accent-fg: #0b0c0b;
+  --color-ok: #7d9e86;
+  --color-warn: #b9a078;
+  --color-danger: #c07a72;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-image: radial-gradient(
+      900px 420px at 8% -8%,
+      rgb(197 204 196 / 0.05),
+      transparent 55%
+    );
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

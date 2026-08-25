@@ -8,18 +8,41 @@
 
 ClaimGate
 
-## Tagline
+## Tagline / elevator (one line)
 
 An evidence gate for technical drafts: unsupported outcomes cannot enter the final report.
 
-## Built with
+## Built with (tags)
 
 TypeScript, React, TanStack Start, Tailwind CSS, Zustand, xAI, Grok, Node.js, Vite
 
-## Video must include
+## Links to attach
 
-Problem, how it works, key features, role of AI (Extractor / Evidence / Gate), live demonstration.
+| Field | Value |
+| --- | --- |
+| Source code | https://github.com/preFiredman/claimgate |
+| Demo video | upload `artifacts/hackathon/claimgate-demo.mp4` (also in GitHub Releases) |
+| Presentation | upload `docs/ClaimGate-deck.pptx` |
+| Project Story | paste `docs/PROJECT_STORY.md` |
 
-## Deck (9 slides, max 10)
+## Video checklist (must include)
 
-Title, Problem, Solution, Target users, Features, Architecture, AI technologies, Impact, Roadmap.
+- [x] Problem
+- [x] How it works
+- [x] Key features
+- [x] Role of AI (Extractor / Evidence / Gate)
+- [x] Live demonstration
+
+Length: ~3 minutes (limit is 5). Silent, with on-screen title cards.
+
+## Deck checklist (≤10 slides)
+
+1. Title
+2. Problem
+3. Solution
+4. Target users
+5. Features / pipeline
+6. Architecture
+7. AI technologies
+8. Impact
+9. Roadmap
