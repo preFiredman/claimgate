@@ -1,8 +1,9 @@
 # Devpost submission fields
 
-**Hackathon:** [AI Builders Hackathon 2026](https://ai-builders-hackathon-2026.devpost.com/)
-**Deadline:** 15 September 2026, 11:00pm EDT
-**Repo:** https://github.com/preFiredman/claimgate
+**Hackathon:** [AI Builders Hackathon 2026](https://ai-builders-hackathon-2026.devpost.com/)  
+**Deadline:** 15 September 2026, 11:00pm EDT  
+**Repo:** https://github.com/preFiredman/claimgate  
+**Release:** https://github.com/preFiredman/claimgate/releases/tag/hackathon-2026
 
 ## Title
 
@@ -21,9 +22,11 @@ TypeScript, React, TanStack Start, Tailwind CSS, Zustand, xAI, Grok, Node.js, Vi
 | Field | Value |
 | --- | --- |
 | Source code | https://github.com/preFiredman/claimgate |
-| Demo video | upload `artifacts/hackathon/claimgate-demo.mp4` (also in GitHub Releases) |
-| Presentation | upload `docs/ClaimGate-deck.pptx` |
-| Project Story | paste `docs/PROJECT_STORY.md` |
+| Demo video | https://github.com/preFiredman/claimgate/releases/download/hackathon-2026/claimgate-demo.mp4 |
+| Presentation | https://github.com/preFiredman/claimgate/releases/download/hackathon-2026/ClaimGate-deck.pptx |
+| Project Story | paste [docs/PROJECT_STORY.md](./PROJECT_STORY.md) |
+
+Upload the mp4 and pptx on Devpost (do not only link them). Download from the release if needed.
 
 ## Video checklist (must include)
 
@@ -33,7 +36,7 @@ TypeScript, React, TanStack Start, Tailwind CSS, Zustand, xAI, Grok, Node.js, Vi
 - [x] Role of AI (Extractor / Evidence / Gate)
 - [x] Live demonstration
 
-Length: ~3 minutes (limit is 5). Silent, with on-screen title cards.
+Length: 3:14 (limit is 5). Silent, with on-screen title cards.
 
 ## Deck checklist (≤10 slides)
 
