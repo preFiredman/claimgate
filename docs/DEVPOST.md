@@ -28,6 +28,24 @@ TypeScript, React, TanStack Start, Tailwind CSS, Zustand, xAI, Grok, Node.js, Vi
 
 Upload the mp4 and pptx on Devpost (do not only link them). Download from the release if needed.
 
+## Image gallery (Project Media)
+
+JPG, 1500×1000 (3:2), each well under 5 MB. **Upload in this order — the first image is the Devpost thumbnail.**
+
+| # | File | What it is |
+| --- | --- | --- |
+| 1 | `docs/gallery/01-cover.jpg` | Cover / thumbnail |
+| 2 | `docs/gallery/02-landing.jpg` | Paste a draft |
+| 3 | `docs/gallery/03-composer.jpg` | Weekly-report sample loaded |
+| 4 | `docs/gallery/04-extracted.jpg` | Extractor pulled claims |
+| 5 | `docs/gallery/05-evidence.jpg` | Evidence scored |
+| 6 | `docs/gallery/06-gated.jpg` | Gated draft + blocked list |
+| 7 | `docs/gallery/07-pipeline.jpg` | Three-agent pipeline |
+
+Zip of all seven: `docs/gallery/ClaimGate-gallery.zip`
+
+Do **not** upload OpenFlow shots, app-builder preview chrome, or random extra images.
+
 ## Video checklist (must include)
 
 - [x] Problem
